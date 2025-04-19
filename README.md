@@ -23,7 +23,7 @@ Before running the module, you need to have an up and running Proxmox cluster co
 ```sh
 cat main.tf
 module "talos_k8s_cluster" {
-  source  = "vdupain/talos-k8s-cluster/proxmox"
+  source  = "NemesisRE/talos-k8s-cluster/proxmox"
   version = "1.5.0"
 
   cluster = {
