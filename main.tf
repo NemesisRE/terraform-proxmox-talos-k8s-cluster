@@ -4,15 +4,18 @@ module "vms_proxmox" {
   proxmox = var.proxmox
 
   cluster = {
-    name                  = var.cluster.name
-    gateway               = var.cluster.gateway
-    dns_domain            = var.cluster.dns_domain
-    dns_servers           = var.cluster.dns_servers
-    cidr                  = var.cluster.cidr
-    vlan_id               = var.cluster.vlan_id
-    talos_version         = var.cluster.talos_version
-    network_dhcp          = var.cluster.network_dhcp
-    network_device_bridge = var.cluster.network_device_bridge
+    name                      = var.cluster.name
+    gateway                   = var.cluster.gateway
+    dns_domain                = var.cluster.dns_domain
+    dns_servers               = var.cluster.dns_servers
+    cidr                      = var.cluster.cidr
+    vlan_id                   = var.cluster.vlan_id
+    talos_version             = var.cluster.talos_version
+    talos_schematic_id        = var.cluster.talos_schematic_id
+    talos_schematic_nvidia_id = var.cluster.talos_schematic_nvidia_id
+    talos_datastore_id        = var.cluster.talos_datastore_id
+    network_dhcp              = var.cluster.network_dhcp
+    network_device_bridge     = var.cluster.network_device_bridge
   }
 
   vms = var.vms

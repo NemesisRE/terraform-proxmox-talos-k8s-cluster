@@ -17,16 +17,19 @@ variable "proxmox" {
 variable "cluster" {
   description = "Cluster configuration"
   type = object({
-    name                  = string
-    talos_version         = optional(string, "v1.9.4")
-    network_dhcp          = optional(bool, false)
-    gateway               = optional(string)
-    dns_domain            = optional(string)
-    dns_servers           = optional(list(string))
-    cidr                  = optional(number)
-    vlan_id               = optional(number, null)
-    network_device_bridge = optional(string, "vmbr0")
-    endpoint              = optional(string)
+    name                      = string
+    talos_version             = optional(string, "v1.9.4")
+    talos_schematic_id        = optional(string)
+    talos_schematic_nvidia_id = optional(string)
+    talos_datastore_id        = optional(string, "local")
+    network_dhcp              = optional(bool, false)
+    gateway                   = optional(string)
+    dns_domain                = optional(string)
+    dns_servers               = optional(list(string))
+    cidr                      = optional(number)
+    vlan_id                   = optional(number, null)
+    network_device_bridge     = optional(string, "vmbr0")
+    endpoint                  = optional(string)
   })
 }
 
