@@ -1,5 +1,5 @@
 module "talos_k8s_cluster" {
-  #source  = "vdupain/talos-k8s-cluster/proxmox"
+  #source  = "NemesisRE/talos-k8s-cluster/proxmox"
   #version = "1.0.0"
   source = "../.."
 
@@ -25,7 +25,7 @@ module "talos_k8s_cluster" {
   }
 
   gitops = {
-    repository   = "https://github.com/vdupain/gitops.git"
+    repository   = "https://github.com/NemesisRE/gitops.git"
     token        = var.github_pat
     cluster_name = "vars-from-envrc-cluster"
   }

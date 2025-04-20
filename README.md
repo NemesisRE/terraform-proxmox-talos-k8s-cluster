@@ -14,7 +14,7 @@ Terraform module for creating a Kubernetes Cluster
 * [Talos v1.9](<https://www.talos.dev/v1.9/introduction/getting-started/>)
 * [Kubernetes](<https://kubernetes.io/docs/reference/kubectl/>)
 * [fluxcd 2.4.0](<https://fluxcd.io/>)
- 
+
 Before running the module, you need to have an up and running Proxmox cluster configured for [Terraform](<https://registry.terraform.io/providers/bpg/proxmox/latest/docs>)
 
 
@@ -23,7 +23,7 @@ Before running the module, you need to have an up and running Proxmox cluster co
 ```sh
 cat main.tf
 module "talos_k8s_cluster" {
-  source  = "vdupain/talos-k8s-cluster/proxmox"
+  source  = "NemesisRE/talos-k8s-cluster/proxmox"
   version = "1.5.0"
 
   cluster = {
@@ -75,7 +75,7 @@ module "talos_k8s_cluster" {
   }
 
   gitops = {
-    repository   = "https://github.com/vdupain/gitops.git"
+    repository   = "https://github.com/NemesisRE/gitops.git"
     token        = "github_pat"
     cluster_name = "my-cluster"
   }
