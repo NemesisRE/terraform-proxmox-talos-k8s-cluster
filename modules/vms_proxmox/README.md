@@ -24,12 +24,12 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [proxmox_virtual_environment_download_file.this](https://registry.terraform.io/providers/bpg/proxmox/latest/docs/resources/virtual_environment_download_file) | resource |
-| [proxmox_virtual_environment_hardware_mapping_pci.pci](https://registry.terraform.io/providers/bpg/proxmox/latest/docs/resources/virtual_environment_hardware_mapping_pci) | resource |
-| [proxmox_virtual_environment_vm.vms](https://registry.terraform.io/providers/bpg/proxmox/latest/docs/resources/virtual_environment_vm) | resource |
-| [time_sleep.waiting_if_dhcp](https://registry.terraform.io/providers/hashicorp/time/latest/docs/resources/sleep) | resource |
-| [http_http.schematic_id](https://registry.terraform.io/providers/hashicorp/http/latest/docs/data-sources/http) | data source |
-| [http_http.schematic_nvidia_id](https://registry.terraform.io/providers/hashicorp/http/latest/docs/data-sources/http) | data source |
+| [proxmox_virtual_environment_download_file.this](https://search.opentofu.org/provider/bpg/proxmox/latest/docs/resources/virtual_environment_download_file) | resource |
+| [proxmox_virtual_environment_hardware_mapping_pci.pci](https://search.opentofu.org/provider/bpg/proxmox/latest/docs/resources/virtual_environment_hardware_mapping_pci) | resource |
+| [proxmox_virtual_environment_vm.vms](https://search.opentofu.org/provider/bpg/proxmox/latest/docs/resources/virtual_environment_vm) | resource |
+| [time_sleep.waiting_if_dhcp](https://search.opentofu.org/provider/hashicorp/time/latest/docs/resources/sleep) | resource |
+| [http_http.schematic_id](https://search.opentofu.org/provider/hashicorp/http/latest/docs/datasources/http) | data source |
+| [http_http.schematic_nvidia_id](https://search.opentofu.org/provider/hashicorp/http/latest/docs/datasources/http) | data source |
 
 ## Inputs
 

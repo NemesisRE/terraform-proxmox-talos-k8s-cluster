@@ -10,12 +10,12 @@ Terraform module for creating a Kubernetes Cluster
 ## Prerequisites
 
 * [Proxmox Virtual Environment 8.3.3](<https://www.proxmox.com/en/>)
-* [Terraform v1.9.8](<https://developer.hashicorp.com/terraform>)
-* [Talos v1.9](<https://www.talos.dev/v1.9/introduction/getting-started/>)
+* [OpenTofu](<https://opentofu.org/>)
+* [Talos](<https://www.talos.dev/v1.9/introduction/getting-started/>)
 * [Kubernetes](<https://kubernetes.io/docs/reference/kubectl/>)
-* [fluxcd 2.4.0](<https://fluxcd.io/>)
+* [fluxcd](<https://fluxcd.io/>)
 
-Before running the module, you need to have an up and running Proxmox cluster configured for [Terraform](<https://registry.terraform.io/providers/bpg/proxmox/latest/docs>)
+Before running the module, you need to have an up and running Proxmox cluster configured for [OpenTofu](<https://search.opentofu.org/provider/bpg/proxmox/latest>)
 
 
 ## Usage
@@ -197,10 +197,10 @@ flux-system	flux-system	main@sha1:5902d505	False    	True 	Applied revision: mai
 
 | Name | Type |
 |------|------|
-| [local_file.kube_config](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) | resource |
-| [local_file.kube_config_home](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) | resource |
-| [local_file.talos_config](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) | resource |
-| [local_file.talos_config_home](https://registry.terraform.io/providers/hashicorp/local/latest/docs/resources/file) | resource |
+| [local_file.kube_config](https://search.opentofu.org/provider/hashicorp/local/latest/docs/resources/file) | resource |
+| [local_file.kube_config_home](https://search.opentofu.org/provider/hashicorp/local/latest/docs/resources/file) | resource |
+| [local_file.talos_config](https://search.opentofu.org/provider/hashicorp/local/latest/docs/resources/file) | resource |
+| [local_file.talos_config_home](https://search.opentofu.org/provider/hashicorp/local/latest/docs/resources/file) | resource |
 
 ## Inputs
 

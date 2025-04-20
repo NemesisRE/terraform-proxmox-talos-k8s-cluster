@@ -20,8 +20,8 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [kubernetes_namespace.sealed_secrets](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/namespace) | resource |
-| [kubernetes_secret.sealed_secrets_key](https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs/resources/secret) | resource |
+| [kubernetes_namespace.sealed_secrets](https://search.opentofu.org/provider/hashicorp/kubernetes/latest/docs/resources/namespace) | resource |
+| [kubernetes_secret.sealed_secrets_key](https://search.opentofu.org/provider/hashicorp/kubernetes/latest/docs/resources/secret) | resource |
 
 ## Inputs
 

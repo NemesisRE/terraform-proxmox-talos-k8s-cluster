@@ -3,7 +3,7 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.8 |
+| <a name="requirement_terraform"></a> [opentofu](#requirement\_opentofu) | >= 1.8 |
 | <a name="requirement_talos"></a> [talos](#requirement\_talos) | >=0.7.1 |
 
 ## Providers
@@ -20,16 +20,16 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [talos_cluster_kubeconfig.this](https://registry.terraform.io/providers/siderolabs/talos/latest/docs/resources/cluster_kubeconfig) | resource |
-| [talos_machine_bootstrap.this](https://registry.terraform.io/providers/siderolabs/talos/latest/docs/resources/machine_bootstrap) | resource |
-| [talos_machine_configuration_apply.controlplane](https://registry.terraform.io/providers/siderolabs/talos/latest/docs/resources/machine_configuration_apply) | resource |
-| [talos_machine_configuration_apply.worker](https://registry.terraform.io/providers/siderolabs/talos/latest/docs/resources/machine_configuration_apply) | resource |
-| [talos_machine_configuration_apply.worker_gpu](https://registry.terraform.io/providers/siderolabs/talos/latest/docs/resources/machine_configuration_apply) | resource |
-| [talos_machine_secrets.this](https://registry.terraform.io/providers/siderolabs/talos/latest/docs/resources/machine_secrets) | resource |
-| [talos_client_configuration.this](https://registry.terraform.io/providers/siderolabs/talos/latest/docs/data-sources/client_configuration) | data source |
-| [talos_cluster_health.this](https://registry.terraform.io/providers/siderolabs/talos/latest/docs/data-sources/cluster_health) | data source |
-| [talos_machine_configuration.controlplane](https://registry.terraform.io/providers/siderolabs/talos/latest/docs/data-sources/machine_configuration) | data source |
-| [talos_machine_configuration.worker](https://registry.terraform.io/providers/siderolabs/talos/latest/docs/data-sources/machine_configuration) | data source |
+| [talos_cluster_kubeconfig.this](https://search.opentofu.org/provider/siderolabs/talos/latest/docs/resources/cluster_kubeconfig) | resource |
+| [talos_machine_bootstrap.this](https://search.opentofu.org/provider/siderolabs/talos/latest/docs/resources/machine_bootstrap) | resource |
+| [talos_machine_configuration_apply.controlplane](https://search.opentofu.org/provider/siderolabs/talos/latest/docs/resources/machine_configuration_apply) | resource |
+| [talos_machine_configuration_apply.worker](https://search.opentofu.org/provider/siderolabs/talos/latest/docs/resources/machine_configuration_apply) | resource |
+| [talos_machine_configuration_apply.worker_gpu](https://search.opentofu.org/provider/siderolabs/talos/latest/docs/resources/machine_configuration_apply) | resource |
+| [talos_machine_secrets.this](https://search.opentofu.org/provider/siderolabs/talos/latest/docs/resources/machine_secrets) | resource |
+| [talos_client_configuration.this](https://search.opentofu.org/provider/siderolabs/talos/latest/docs/datasources/client_configuration) | data source |
+| [talos_cluster_health.this](https://search.opentofu.org/provider/siderolabs/talos/latest/docs/datasources/cluster_health) | data source |
+| [talos_machine_configuration.controlplane](https://search.opentofu.org/provider/siderolabs/talos/latest/docs/datasources/machine_configuration) | data source |
+| [talos_machine_configuration.worker](https://search.opentofu.org/provider/siderolabs/talos/latest/docs/datasources/machine_configuration) | data source |
 
 ## Inputs
 

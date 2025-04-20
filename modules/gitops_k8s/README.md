@@ -20,7 +20,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [flux_bootstrap_git.this](https://registry.terraform.io/providers/fluxcd/flux/latest/docs/resources/bootstrap_git) | resource |
+| [flux_bootstrap_git.this](https://search.opentofu.org/provider/fluxcd/flux/latest/docs/resources/bootstrap_git) | resource |
 
 ## Inputs
 
